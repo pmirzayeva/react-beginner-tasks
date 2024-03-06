@@ -1,0 +1,22 @@
+.box{
+    background-color:#fcf0f0;
+    width: 60%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 15px 30px 35px rgba(0,0,0,0.1);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.colorBox{
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
